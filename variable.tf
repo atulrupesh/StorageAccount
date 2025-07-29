@@ -1,10 +1,10 @@
 variable "resource_group_name" {
-  default = "RG-03"
+  default = "RG-04"
   
 }
   
 variable "location" {
-  default = "westeurope"
+  default = "centralus"
 }
 
 variable "azurerm_storage_account_name" {
@@ -21,3 +21,5 @@ variable "account_tier" {
 variable "account_replication_type" {
     default = "LRS" 
 }
+
+
